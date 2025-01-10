@@ -9,7 +9,7 @@ It uses Javascript to make the request and the report, CSS to make the style, an
 
 To Execute it, you can use a server, or just use the command in the terminal linux:
 
-*sudo open CORS_POC.html*
+*open CORS_POC.html*
 
 In windows, you can just double-click it
 
