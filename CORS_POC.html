@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORS Misconfiguration PoC</title>
+    <script src="data/request.js"></script>
+    <script src="data/poc.js"></script>
+    <link rel="stylesheet" href="data/style.css">
+</head>
+<body>
+    <div class="upper">
+        <h1>CORS Misconfiguration</h1>
+    </div>
+
+    <div class="send">
+        <h1>Enter URL</h1>
+        <input placeholder="URL" class="input"type="url" id="input" name="url" value="http://example.com">
+        <button onmousedown="Cors()">Send Request</button><br><br><br>
+        <h1>Select Method</h1>
+        <div class="method">
+             <input type="radio" id="get" name="fav_language" value="get">
+             <label for="html">GET</label><br><br>
+             <input type="radio" id="post" name="fav_language" value="post">
+             <label for="css">POST</label><br><br>
+             <input type="radio" id="options" name="fav_language" value="options">
+             <label for="javascript">OPTIONS</label>
+        </div>
+        <br><br>
+        <div class="response">
+            <h1>Status Code:</h1>
+            <h3 id="CODE"class="status_0">0</h3>
+            <h1>Test Response</h1>
+            <h3 id="response" class="waiting">Waiting...</h3>
+        </div>
+    </div>
+
+</body>
+</html>
