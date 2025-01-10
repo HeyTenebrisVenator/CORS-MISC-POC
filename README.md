@@ -1,5 +1,5 @@
 # CORS-MISC-POC
-!THIS SOFTWARE WORKS IN ALL OS, INCLUDING ANDROID ADN IOS!
+!THIS SOFTWARE WORKS IN ALL OS, INCLUDING ANDROID AND IOS!
 
 Cors misc PoC is a automatic method to test for misconfiguration in the cors.
 
