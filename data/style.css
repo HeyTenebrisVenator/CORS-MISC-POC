@@ -1,0 +1,60 @@
+.upper {
+    background-color: blue;
+    position:relative;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: blue;
+
+}
+.send {
+    background-color: white;
+    position:relative;
+    height: 800px;
+    width:auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.waiting {
+    color: orange;
+}
+.vulnerable {
+    color: green;
+}
+.not_vulnerable {
+    color: red;
+}
+.method {
+    text-align:justify;
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    height: 40px;
+    width: 200px;
+    cursor:pointer;
+}
+.input {
+    color: black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    width: 1000px;
+    height: 30px;
+}
+h3 {
+    font-size: 20px;
+}
